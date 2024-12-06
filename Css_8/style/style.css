@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(45deg, rgb(88, 215, 240), rgba(0, 0, 255, 0.496), rgb(0, 26, 128));
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.flex_container{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+.flex_item{
+    height: 200px;
+    background-color: rgb(44, 89, 255);
+    width: 200px;
+    /* margin-left: 15px; */
+    margin-top: 10px;
+    text-align: center;
+}
